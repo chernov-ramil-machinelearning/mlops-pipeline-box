@@ -12,7 +12,7 @@ from typing import Any, Dict, Optional
 
 import joblib
 import pandas as pd
-import psycopg2
+import psycopg as psycopg2
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 

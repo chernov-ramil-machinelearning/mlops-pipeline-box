@@ -8,7 +8,7 @@ from pathlib import Path
 
 import joblib
 import numpy as np
-import psycopg2
+import psycopg as psycopg2
 from scipy.stats import mannwhitneyu
 from sklearn.model_selection import train_test_split
 

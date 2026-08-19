@@ -142,16 +142,16 @@ python evaluation/ab_test.py
 **Пример вывода:**
 ```text
 =================== A/B Model Evaluation ===================
-Sample size (held-out): 2000
-Model v1 accuracy:      0.8570
-Model v2 accuracy:      0.8645
-Bootstrap mean diff:    +0.0075
-95% Confidence Interval:[+0.0010, +0.0145]
-Statistically significant (p < 0.05): True
-Mann-Whitney U statistic: 1985000.00, p-value: 2.1400e-02
-===========================================================
+Sample size (held-out): 1000
+Model v1 accuracy:      0.7930
+Model v2 accuracy:      0.7910
+Bootstrap mean diff:    -0.0021
+95% Confidence Interval:[-0.0110, +0.0070]
+Statistically significant (p < 0.05): False
+Mann-Whitney U statistic: 501000.00, p-value: 9.1233e-01
 ```
-
+> Статистически значимой разницы между v1 (depth=4) и v2 (depth=6) не обнаружено -
+> усложнение модели не оправдано, в проде остаётся более простая и быстрая v1.
 ---
 
 ## 🔌 Работа с API

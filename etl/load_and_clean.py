@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 
 import pandas as pd
-import psycopg2
+import psycopg as psycopg2
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://mlops:mlops@localhost:5434/mlops_box")

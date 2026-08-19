@@ -16,6 +16,10 @@ htmlcov/
 # CatBoost artifacts
 catboost_info/
 
+# Generated data & model artifacts (regenerate via etl/load_and_clean.py + training/train.py)
+data/*.csv
+models/*.cbm
+
 # Environments & secrets
 .env
 .venv/

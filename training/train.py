@@ -8,7 +8,7 @@ from typing import Any, Dict, Tuple
 
 import joblib
 import pandas as pd
-import psycopg2
+import psycopg as psycopg2
 from catboost import CatBoostClassifier
 from sklearn.metrics import f1_score, roc_auc_score
 from sklearn.model_selection import train_test_split
