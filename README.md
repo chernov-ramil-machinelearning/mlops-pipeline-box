@@ -1,7 +1,8 @@
 # 🚀 MLOps Pipeline in a Box
 
-[![CI](https://github.com/your-username/mlops-pipeline-box/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/mlops-pipeline-box/actions)
+[![CI](https://github.com/chernov-ramil-machinelearning/mlops-pipeline-box/actions/workflows/ci.yml/badge.svg)](https://github.com/chernov-ramil-machinelearning/mlops-pipeline-box/actions)
 ![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-blue?logo=python&logoColor=white)
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
 ![CatBoost](https://img.shields.io/badge/CatBoost-ML-yellow?logo=yandex&logoColor=black)
@@ -93,8 +94,9 @@ mlops-pipeline-box/
 ### 1. Клонирование и настройка окружения
 
 ```bash
-git clone https://github.com/your-username/mlops-pipeline-box.git
+git clone https://github.com/chernov-ramil-machinelearning/mlops-pipeline-box.git
 cd mlops-pipeline-box
+
 
 # Создание виртуального окружения
 python -m venv .venv
