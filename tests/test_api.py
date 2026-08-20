@@ -24,7 +24,18 @@ def test_healthcheck():
     assert "model_version" in data
 
 
-def test_predict_endpoint_success():
+class DummyModel:
+    def predict(self, X):
+        return [0]
+
+    def predict_proba(self, X):
+        return [[0.85, 0.15]]
+
+
+def test_predict_endpoint_success(monkeypatch):
+    monkeypatch.setattr("api.main.get_model", lambda: DummyModel())
+    monkeypatch.setattr("api.main.log_prediction", lambda *args, **kwargs: None)
+
     payload = {
         "CreditScore": 650,
         "Geography": "France",
