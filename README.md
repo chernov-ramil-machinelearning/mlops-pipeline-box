@@ -1,13 +1,13 @@
 # 🚀 MLOps Pipeline in a Box
 
 [![CI](https://github.com/chernov-ramil-machinelearning/mlops-pipeline-box/actions/workflows/ci.yml/badge.svg)](https://github.com/chernov-ramil-machinelearning/mlops-pipeline-box/actions)
-![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-blue?logo=python&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![CatBoost](https://img.shields.io/badge/CatBoost-ML-yellow?logo=yandex&logoColor=black)](https://catboost.ai/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[![Pytest](https://img.shields.io/badge/Pytest-Tests%20Passing-success?logo=pytest&logoColor=white)](https://docs.pytest.org/)
 
-![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
-![CatBoost](https://img.shields.io/badge/CatBoost-ML-yellow?logo=yandex&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-Tests%20Passing-success?logo=pytest&logoColor=white)
 
 > **Автономный production-контур для машинного обучения (MLOps in a Box):** от загрузки сырых данных и SQL-фичаинжиниринга до версионирования экспериментов, микросервисного инференса и статистического A/B-сравнения моделей.
 
